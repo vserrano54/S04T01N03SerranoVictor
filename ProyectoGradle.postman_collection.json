@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "73eb3222-9a11-4c7f-be82-1d8fc42d5679",
+		"name": "ProyectoGradle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15335648"
+	},
+	"item": [
+		{
+			"name": "Get HolaMundo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{servidor}}:{{port}}/HolaMundo",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"HolaMundo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get HolaMundo/?",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{servidor}}:{{port}}/HolaMundo/Victor Serrano",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"HolaMundo",
+						"Victor Serrano"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

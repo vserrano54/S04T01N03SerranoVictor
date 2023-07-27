@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "bdcbaec6-2652-4eef-85cd-d790090cd38a",
+		"name": "ProyectoMaven",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15335648"
+	},
+	"item": [
+		{
+			"name": "Get HolaMundo?nombre=?",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{servidor}}:{{port}}/HolaMundo?nombre=Victro Serrano",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"HolaMundo"
+					],
+					"query": [
+						{
+							"key": "nombre",
+							"value": "Victro Serrano"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get HolaMundo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{servidor}}:{{port}}/HolaMundo",
+					"host": [
+						"{{servidor}}"
+					],
+					"port": "{{port}}",
+					"path": [
+						"HolaMundo"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
